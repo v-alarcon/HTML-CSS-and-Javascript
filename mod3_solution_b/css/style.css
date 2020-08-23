@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+/* Header */
+#header-nav {
+    background: #0f6674;
+}
+#navbarNavAltMarkup {
+    visibility: hidden;
+}
+.navbar-nav a{
+    text-decoration: none;
+    background: #86cfda;
+}
+#our-menu{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.text-center{
+    margin-bottom: 5px;
+}
+.navbar-brand {
+    font-size: 1.8em;
+}
+/* Body */
+.menu-dish {
+    background: #17a2b8;
+    border:solid black 2px;
+    padding: 10px;
+    margin-bottom: 15px;
+    height: 700px;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 1.5em;
+}
+li span {
+    background: #9fcdff;
+}
+
+@media (max-width:767px )  {
+    nav #navbarNavAltMarkup {
+        visibility: visible;
+    }
+}
